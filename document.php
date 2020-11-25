@@ -11,7 +11,7 @@
             }
             return $content;
         }
-        // Parser content fra arrayet/objectet(overrideData varialen) over placeholderteksten i templatefilen. Dette gøres via et loop der looper alle forskellelige values man ønsker at parse.
+        // Parser content fra overrideData varialen over placeholderteksten i templatefilen. Dette gøres via et loop der looper alle forskellelige values man ønsker at parse.
         // og str_replace finde så alle forekomster af placeholderen og erstatter den med den ønskede value. Når loopet er gennemkørt og alle placeholders er overskredet. returneres den nye templateContent med de overskrevne værdier
         function parse($templateContent, $overrideData)
         {
