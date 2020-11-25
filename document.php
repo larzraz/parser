@@ -1,7 +1,7 @@
 <?php
     class Document
     {
-        // Henter hele filens content som en string. Først tjekker den dog lige om filen overhovedet eksistere.
+        // Henter hele filens content som en string. Først tjekker den dog lige om filen overhovedet eksisterer.
         function getFileContent($fileName)
         {
             if (file_exists($fileName)) {
