@@ -7,7 +7,7 @@
             if (file_exists($fileName)) {
                 $content = file_get_contents($fileName);
             } else {
-                $content = "File doesnt exist";
+                throw new Exception("File doesnt exist");             
             }
             return $content;
         }
