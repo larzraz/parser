@@ -1,2 +1,2 @@
-# parser
-## a little project I had been tasked to do for an internship
+# Parser
+## A little project I had been tasked to do for an internship
