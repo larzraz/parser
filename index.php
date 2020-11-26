@@ -1,4 +1,8 @@
 <?php
+
+/*
+ * @author  Lars Rasmussen
+*/
     // Adgang til de andre dokumenter
     include ("document.php");
     include ("ContentObject.php");
